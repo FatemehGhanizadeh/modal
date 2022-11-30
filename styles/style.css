@@ -1,0 +1,123 @@
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;}
+
+    body
+    {
+        background-color:#00796B ;
+        font-family: vazirNormal !important;
+        direction:rtl ;
+    }
+
+    .btn{
+        text-align: center;
+    }
+    .openBtn
+    {
+        background-color: #004D40 ;
+        /* width: 100px; */
+        text-align: center;
+        padding:20px ;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        font-size: 24px;
+
+
+    }
+
+    .openBtn:hover
+    {
+        cursor: pointer;
+        background-color: #002c25;
+    }
+
+    .container
+    {
+        background-color: #fff;
+        width:600px ;
+        height:400px;
+        border-radius: 5px;
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0px 0px 5px -1px #000000;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 99999999999;
+            
+    }
+
+    .close
+    {
+        width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #313131;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    top: -15px;
+    right: -15px;
+    }
+
+    .close:hover{
+        cursor: pointer;
+    }
+
+
+    img
+    {
+        width: 200px;
+    
+    }
+
+    .title
+    {
+        color: #000000;
+        font-size: 24px;
+        font-weight: bold;
+        display: inline-block;
+        margin: 15px 0;
+    }
+
+    .email
+    {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        direction: ltr;
+        margin-top: 10px;
+    }
+
+    .email:focus
+    {
+        outline: none;
+    border: 1px solid #919191;
+    }
+
+    .formbtn
+    {
+        margin-top: 10px;
+        width: 93%;
+        padding: 5px 10px;
+        background-color: #388E3C;
+        font-family: vazirNormal;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .formbtn:hover
+    {
+        background-color: #246928;
+    cursor: pointer;
+    }
